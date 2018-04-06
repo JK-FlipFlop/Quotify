@@ -1,0 +1,45 @@
+body {
+    background-color: lightblue;
+ }
+
+.container
+{
+	margin-top: 60px;
+}
+
+div h1
+{
+	font-family: 'Tangerine', serif;
+    font-size: 75px;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+div h4
+{
+	font-family: 'Tangerine', serif;
+	font-size: 40px;
+}
+
+#quotes
+{
+	border: 2px solid white;
+	width: 50%;
+	margin: auto;
+	margin-top: 50px;
+}
+
+#quote, #author
+{
+	font-family: 'Playball', cursive;
+	font-size: 35px;
+}
+
+#button
+{
+	margin-top: 30px;
+}
+
+.btn
+{
+	margin: 10px;
+}
