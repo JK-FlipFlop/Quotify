@@ -1,8 +1,17 @@
-body {
-    background-color: lightblue;
+body 
+{
+    margin: 0;
+    padding: 0;
+	background-color: lightblue;
+	background-image: url('../img/mountain.jpg');
+ 	background-position: center;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	height: 100vh;
+ 	overflow-y: hidden;
  }
 
-.container
+ .container	
 {
 	margin-top: 60px;
 }
@@ -22,17 +31,23 @@ div h4
 
 #quotes
 {
-	border: 2px solid white;
 	width: 50%;
 	margin: auto;
 	margin-top: 50px;
 }
 
-#quote, #author
+#quote
 {
-	font-family: 'Playball', cursive;
-	font-size: 35px;
+	font-family: 'Great Vibes', cursive;
+	font-size: 45px;
 }
+
+#author
+{
+	font-family: 'Great Vibes', cursive;
+	font-size: 30px;
+}
+
 
 #button
 {
